@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro");
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Maven Pro", sans-serif;
+  overflow-x: hidden;
+}
+
+.background {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#background-1 {background-image: url("http://www.hdcarwallpapers.com/walls/2018_lexus_lc500h_hybrid_coupe_4k-HD.jpg");}
+#background-2 {background-image: url("https://wallpaperscraft.com/image/mercedes_benz_amg_gt_s_2016_rear_view_102848_1920x1080.jpg");}
+#background-3 {background-image: url("https://www.fr.audi.be/content/dam/nemo/models/a7/der-neue-a7-sportback/my-2018/1920x1080-inline-media-gallery/1920x1080_InlineMediaGalerie_Modul3_AA7_171013.jpg");}
+
+.background-text {
+  position: absolute;
+  margin: 0 auto;
+  top: 165px;
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+#background-text-1 {opacity: 1;}
+.background-text h1 {
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 60px;
+  font-weight: lighter;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow:0px 0px 15px 0px rgba(0,0,0,0.5);
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  padding: 50px 0 65px 0;
+  width: 70%;
+  font-size: 18px;
+}
+.wrapper h2 {font-weight: lighter; font-size: 30px;}
+
+
+
+footer {
+  margin: 0 auto;
+  padding: 15px 0;
+  background-color: #262626;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
